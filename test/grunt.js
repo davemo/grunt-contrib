@@ -173,7 +173,7 @@ module.exports = function(grunt) {
           namespace: "JST"
         },
         files: {
-          "fixtures/output/handlebars.js": "fixtures/handlebars/one.handlebar"
+          "fixtures/output/handlebars.js": ["fixtures/handlebars/*.handlebar"]
         }
       }
     },
